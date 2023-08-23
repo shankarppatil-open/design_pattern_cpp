@@ -150,8 +150,8 @@ public:
   int Observer::Static_number_ = 0;
 
 /*****************************************************************************/
-  void ClientCode()
-  {
+void ClientCode()
+{
     Subject *subject = new Subject;
 
     Observer *observer1 = new Observer(*subject);
